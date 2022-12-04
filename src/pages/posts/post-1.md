@@ -26,10 +26,10 @@ Welcome to my _new blog_ about learning Astro! Here, I will share my learning jo
 
 I will finish the Astro tutorial, and then keep adding more posts. Watch this space for more to come.
 
-//<div style=direction:rtl>
+<div dir="rtl">
 
 ## اهلا بكم..
-// </div>
+
 جموع غفيرة لا تنقصها الرغبة في التغيير الى الافضل٫ 
 و لا تنقصها النوايا الطيبة والصدق٫ 
 ولا ينقصها الاستعداد للبذل والتضحية..
@@ -45,3 +45,5 @@ I will finish the Astro tutorial, and then keep adding more posts. Watch this sp
 #مشروع_دولة_المواطنة
 #مبدأ_الحكومة_الصغيرة
 #اعادة_الوطن_الى_اهله
+
+</div>
