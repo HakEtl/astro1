@@ -1,4 +1,6 @@
 ---
+import Footer from "../components/Footer..astro";
+import Nav1 from "../components/Nav1.astro";
 const a= "World";
 ---
 
@@ -11,13 +13,14 @@ const a= "World";
 		<title>اهلا بكم </title>
 	</head>
 	<body>
+		<Nav1/>
         <div class=flexbox>
         <a href="/"> Home</a>
         <a href="/about"> About</a>
-		<a href="/posts/post-1"> Blog </a>
+		<a href="/posts/post1"> Blog </a>
 
     </div>
-		<h1>اهلا بكم {1+1}</h1>
+		<h1 class="font-bold bg-blue-600 text-5xl text-center">اهلا بكم {1+1}</h1>
 		<h2> {a} </h2>
 		<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
 			Esse sapiente voluptas architecto aperiam, illo quaerat <br>
@@ -27,6 +30,7 @@ const a= "World";
 			molestias nemo? Adipisci quam est totam!</p>
 
 			<p class="ara"> بسم الله الرحمن الرحيم</p>
+			<Footer/>
 	</body>
 </html>
 
